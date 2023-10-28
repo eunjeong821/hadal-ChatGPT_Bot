@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color:#2e2e38;
+}
+
 .container {
     max-width: 920px;
     height: 100vh;
@@ -35,15 +39,15 @@
 }
 
 .info a {
-    color: #ffffff;
+    color: rgb(255, 255, 175);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     transition: all 0.3s ease;
 }
 
 .info a:hover{
-    color: rgb(231, 231, 72);
+    color: rgb(221, 221, 0);
 }
 
 .input-container{
@@ -80,7 +84,7 @@
     padding: 8px 20px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(235, 235, 147) ;
+    background-color: rgb(255, 255, 175) ;
     color: black;
     cursor: pointer;
     margin-left: 15px;
@@ -88,5 +92,5 @@
 }    
 
 #send-button:hover{
-    background-color:rgb(231, 231, 72);
+    background-color:rgb(221, 221, 0);
 }
